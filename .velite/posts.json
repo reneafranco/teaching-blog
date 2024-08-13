@@ -4,7 +4,7 @@
     "title": "Hello World",
     "date": "2024-08-11T00:00:00.000Z",
     "published": true,
-    "body": "const{Fragment:n,jsx:e,jsxs:t}=arguments[0];function _createMdxContent(r){const o={h1:\"h1\",h2:\"h2\",p:\"p\",...r.components};return t(n,{children:[e(o.h1,{children:\"Hello World\"}),\"\\n\",e(o.h2,{children:\"test\"}),\"\\n\",e(o.p,{children:\"Welcome to my blog\"})]})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "body": "const{jsx:n}=arguments[0];function _createMdxContent(t){const e={h1:\"h1\",...t.components};return n(e.h1,{children:\"Hi there\"})}return{default:function(t={}){const{wrapper:e}=t.components||{};return e?n(e,{...t,children:n(_createMdxContent,{...t})}):_createMdxContent(t)}};",
     "slugAsParams": "hello-world"
   }
 ]
