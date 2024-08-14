@@ -1,10 +1,13 @@
 "use client";
-
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "./ui/button";
-import { DropdownMenu, DropdownMenuTrigger } from "./ui/dropdown-menu";
-import { DropdownMenuContent } from "@radix-ui/react-dropdown-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "./ui/dropdown-menu";
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
@@ -18,7 +21,17 @@ export function ModeToggle() {
           <span className="sr-only">Toggle Theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end"></DropdownMenuContent>
+      <DropdownMenuContent align="end">
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Light
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Dark
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          System
+        </DropdownMenuItem>
+      </DropdownMenuContent>
     </DropdownMenu>
   );
 }
