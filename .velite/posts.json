@@ -2,9 +2,10 @@
   {
     "slug": "blog/hello-world",
     "title": "Hello World",
+    "description": "This is our first Blog post",
     "date": "2024-08-11T00:00:00.000Z",
     "published": true,
-    "body": "const{jsx:n}=arguments[0];function _createMdxContent(t){const e={h1:\"h1\",...t.components};return n(e.h1,{children:\"Hi there\"})}return{default:function(t={}){const{wrapper:e}=t.components||{};return e?n(e,{...t,children:n(_createMdxContent,{...t})}):_createMdxContent(t)}};",
+    "body": "const{Fragment:n,jsx:e,jsxs:t}=arguments[0];function _createMdxContent(r){const c={h1:\"h1\",p:\"p\",...r.components};return t(n,{children:[e(c.h1,{children:\"Hi there\"}),\"\\n\",e(c.p,{children:\"Welcome back\"})]})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
     "slugAsParams": "hello-world"
   }
 ]

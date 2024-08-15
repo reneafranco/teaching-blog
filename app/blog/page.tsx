@@ -1,4 +1,5 @@
 import { posts } from "#site/content";
+import { PostItem } from "@/components/post-item";
 
 export default async function BlogPage() {
   const displayPost = posts;
@@ -14,8 +15,23 @@ export default async function BlogPage() {
         </div>
       </div>
       <hr className="mt-8" />
-      {displayPost?.length > 8 ? (
-        <ul className="flex flex-col"></ul>
+      {displayPost?.length > 0 ? (
+        <ul className="flex flex-col">
+          {displayPost.map((post) => {
+            const { slug, date, title, description } = post;
+
+            return (
+              <li key={slug}>
+                <PostItem
+                  slug={slug}
+                  title={title}
+                  description={description}
+                  date={date}
+                />
+              </li>
+            );
+          })}
+        </ul>
       ) : (
         <p>Nothing to see here yet</p>
       )}
