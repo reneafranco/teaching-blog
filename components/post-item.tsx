@@ -36,7 +36,7 @@ export function PostItem({ slug, title, description, date }: PostItemProps) {
             "py-0",
           )}
         >
-          Read more ...
+          Read more →
         </Link>
       </div>
     </article>
