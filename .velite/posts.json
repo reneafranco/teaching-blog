@@ -5,7 +5,7 @@
     "description": "This is our first Blog post",
     "date": "2024-08-11T00:00:00.000Z",
     "published": true,
-    "body": "const{Fragment:n,jsx:e,jsxs:t}=arguments[0];function _createMdxContent(r){const c={h1:\"h1\",p:\"p\",...r.components};return t(n,{children:[e(c.h1,{children:\"Hi there\"}),\"\\n\",e(c.p,{children:\"Welcome back\"})]})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "body": "const{Fragment:e,jsx:n,jsxs:t}=arguments[0];function _createMdxContent(o){const r={h1:\"h1\",p:\"p\",...o.components},{Callout:c}=r;return c||function(e,n){throw new Error(\"Expected \"+(n?\"component\":\"object\")+\" `\"+e+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),t(e,{children:[n(r.h1,{children:\"Hi there\"}),\"\\n\",n(c,{children:n(r.p,{children:\"Hello I'm a call out component\"})}),\"\\n\",n(r.p,{children:\"Welcome back\"})]})}return{default:function(e={}){const{wrapper:t}=e.components||{};return t?n(t,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
     "slugAsParams": "hello-world"
   }
 ]
