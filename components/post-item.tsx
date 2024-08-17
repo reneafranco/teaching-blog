@@ -24,7 +24,7 @@ export function PostItem({ slug, title, description, date }: PostItemProps) {
           <dt className="sr-only">Published On</dt>
           <dd className="text-sm sm:text-base font-medium items-center gap-1">
             <Calendar className="h-4 w-4 " />
-            <time dateTime={date}>{date}</time>
+            <time dateTime={date}>{}</time>
           </dd>
         </dl>
         <Link
