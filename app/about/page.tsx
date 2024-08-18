@@ -3,8 +3,9 @@ import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Me",
-  description: "Information about me",
+  title: "Rene A Franco ",
+  description:
+    "Rene A Franco is a software engineer with many years of experience ",
 };
 
 export default async function AboutPage() {

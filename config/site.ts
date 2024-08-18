@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Rene Blog",
   url: "https://example.com",
-  description: "Teaching Blog using Next velite and MDX",
-  author: "Rene Franco",
+  description:
+    "This is a blog created by Rene A Franco , software enginner with many years of experience ",
+  author: "Rene A Franco",
   links: {
     twitter: "https://github.com/reneafranco",
     github: "https://github.com/reneafranco",

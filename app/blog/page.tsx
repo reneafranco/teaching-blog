@@ -2,6 +2,13 @@ import { posts } from "#site/content";
 import { PostItem } from "@/components/post-item";
 import { QueryPagination } from "@/components/query-pagination";
 import { sortPosts } from "@/lib/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rene A Franco Blog ",
+  description:
+    "This is a blog that Rene A Franco created to show tutorials about programming",
+};
 
 const POSTS_PER_PAGE = 5;
 
