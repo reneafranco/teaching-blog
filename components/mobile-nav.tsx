@@ -46,9 +46,9 @@ export function MobileNav() {
           <Link
             target="_blank"
             rel="nonreferrer"
-            href={siteConfig.links.twitter}
+            href={siteConfig.links.personalSite}
           >
-            Twitter
+            Portfolio
           </Link>
         </div>
       </SheetContent>

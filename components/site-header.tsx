@@ -6,6 +6,7 @@ import { Icons } from "./icons";
 import { MainNav } from "./main-nav";
 import { MobileNav } from "./mobile-nav";
 import { ModeToggle } from "./model-toggle";
+import { Crown } from "lucide-react";
 
 export function SiteHeader() {
   return (
@@ -30,7 +31,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.github}
+              href={siteConfig.links.personalSite}
               target="_blank"
               rel="noreferrer"
             >
@@ -40,8 +41,8 @@ export function SiteHeader() {
                   "w-10 px-0 hidden sm:inline-flex",
                 )}
               >
-                <Icons.twitter className="h-4 w-4" />
-                <span className="sr-only">Twitter</span>
+                <Crown className="h-4 w-4" />
+                <span className="sr-only">Personal Site</span>
               </div>
             </Link>
             <ModeToggle />
