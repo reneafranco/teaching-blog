@@ -2,6 +2,9 @@ import { posts } from "#site/content";
 import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
 import "@/styles/mdx.css";
+import { Tag } from "@/components/tag";
+import { Metadata } from "next";
+import { siteConfig } from "@/config/site";
 
 interface PostPageProps {
   params: {
