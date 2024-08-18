@@ -17,6 +17,22 @@ export const Icons = {
       <circle cx="5" cy="19" r="1" />
     </svg>
   ),
+  spiral: (props: IconProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M12 12 M12 2 A10 10 0 1 1 12 22 A10 10 0 1 1 12 2 M12 12 M12 2 A9 9 0 1 1 12 21 A9 9 0 1 1 12 2 M12 12 M12 2 A8 8 0 1 1 12 20 A8 8 0 1 1 12 2" />
+    </svg>
+  ),
   twitter: (props: IconProps) => (
     <svg
       {...props}

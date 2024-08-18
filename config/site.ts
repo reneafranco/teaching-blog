@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "ReneBlog",
+  name: "Rene Blog",
   url: "https://example.com",
   description: "Teaching Blog using Next velite and MDX",
   author: "Rene Franco",
