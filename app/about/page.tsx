@@ -33,13 +33,11 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          Hello, my name is Rene A Franco. I&apos;ve had a deep passion for
+          technology since my early years. I&apos;ve always been fascinated by
+          the process of building things, which led me to pursue a career in the
+          tech industry. My primary goal is to leverage my passion for
+          technology to create innovative tools that can benefit society.
         </p>
       </div>
     </div>
